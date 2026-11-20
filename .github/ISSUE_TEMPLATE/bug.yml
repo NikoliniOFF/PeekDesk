@@ -1,0 +1,41 @@
+name: Сообщить о баге
+description: Что-то в PeekDesk работает не так
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Спасибо, что сообщаете! Чем подробнее — тем быстрее получится исправить."
+  - type: textarea
+    id: what
+    attributes:
+      label: Что случилось
+      placeholder: "Например: таблица XLSX открывается пустой"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как повторить
+      placeholder: "1. …\n2. …"
+  - type: input
+    id: filetype
+    attributes:
+      label: Какой файл
+      description: Тип и примерный размер. Если можно — приложите файл (без личных данных).
+      placeholder: "XLSX, 3 МБ, 5 листов"
+  - type: input
+    id: version
+    attributes:
+      label: Версия PeekDesk
+      description: Меню значка в трее → «О программе»
+      placeholder: "1.0.0"
+  - type: input
+    id: windows
+    attributes:
+      label: Windows и экран
+      placeholder: "Windows 11, масштаб 125%"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Скриншот или журнал
+      description: "Перетащите сюда скриншот. Журнал: запустите `PeekDesk.exe --log`, он появится в `%APPDATA%\\PeekDesk\\peekdesk.log`."
