@@ -109,6 +109,10 @@ footer{padding:36px 0 50px;color:var(--sub);font-size:14.5px;text-align:center;b
       <div class="card"><div class="ic">🗂️</div><h3>Несколько файлов</h3><p>Выделили несколько и нажали пробел — внизу лента миниатюр, стрелки или щелчок переключают файл.</p></div>
       <div class="card"><div class="ic">ℹ️</div><h3>Сведения, поиск, действия</h3><p>Ctrl+I: даты, EXIF, кодеки видео. Ctrl+F — поиск в тексте, документах, PDF и таблицах, Ctrl+C — копирование. «Открыть с помощью», перетаскивание файла в чат.</p></div>
       <div class="card"><div class="ic">🖥️</div><h3>Во весь экран</h3><p>Кнопка в шапке, F или F11 — любой файл на весь монитор, плавно и без перезагрузки: видео играет дальше. Панели прячутся сами, Esc — обратно в окно.</p></div>
+      <div class="card"><div class="ic">✏️</div><h3>Рисование</h3><p>P — перо, маркер, стрелки, рамки и текст прямо на картинке или PDF. Копия сохраняется рядом или копируется в чат.</p></div>
+      <div class="card"><div class="ic">🔤</div><h3>Текст с картинки</h3><p>T — выделяйте и копируйте текст с фото, скриншотов и сканов PDF. Распознаёт Windows, без интернета.</p></div>
+      <div class="card"><div class="ic">📤</div><h3>Поделиться</h3><p>Системное окно «Поделиться», а Ctrl+C без выделения копирует сам файл — вставьте его в Discord или папку.</p></div>
+      <div class="card"><div class="ic">⏳</div><h3>Как в macOS</h3><p>Окно вырастает из значка файла и уходит в него обратно. Зажали пробел — подглядываете, отпустили — закрылось.</p></div>
       <div class="card"><div class="ic">🌗</div><h3>Светлая и тёмная тема</h3><p>Следует теме Windows. Размер окна запоминается отдельно для каждого типа файлов.</p></div>
     </div>
   </section>
@@ -116,6 +120,8 @@ footer{padding:36px 0 50px;color:var(--sub);font-size:14.5px;text-align:center;b
   <section id="gallery">
     <h2>Как это выглядит</h2><p class="sub">Настоящие скриншоты PeekDesk</p>
     <div class="gal">
+      <figure><div class="shot"><img src="assets/media/markup.jpg" alt="Рисование на картинке" loading="lazy" width="960" height="680"></div><figcaption>Рисование на картинке и PDF</figcaption></figure>
+      <figure><div class="shot"><img src="assets/media/livetext.jpg" alt="Текст с картинки" loading="lazy" width="960" height="680"></div><figcaption>Текст с картинки — выделить и скопировать</figcaption></figure>
       <figure><div class="shot"><img src="assets/media/multi.jpg" alt="Несколько файлов" loading="lazy" width="960" height="680"></div><figcaption>Несколько файлов — лента миниатюр</figcaption></figure>
       <figure><div class="shot"><img src="assets/media/trim.jpg" alt="Обрезка видео" loading="lazy" width="960" height="680"></div><figcaption>Обрезка видео без перекодирования</figcaption></figure>
       <figure><div class="shot"><img src="assets/media/pptx.jpg" alt="PowerPoint" loading="lazy" width="960" height="680"></div><figcaption>Слайды PowerPoint</figcaption></figure>
@@ -134,13 +140,14 @@ footer{padding:36px 0 50px;color:var(--sub);font-size:14.5px;text-align:center;b
   <section id="keys">
     <h2>Клавиши</h2><p class="sub">Всё — с клавиатуры, как в macOS</p>
     <table class="keys">
-      <tr><td><kbd>Пробел</kbd> в Проводнике или на рабочем столе</td><td>открыть / закрыть предпросмотр</td></tr>
+      <tr><td><kbd>Пробел</kbd> в Проводнике или на рабочем столе</td><td>открыть / закрыть предпросмотр (держите пробел — закроется, когда отпустите)</td></tr>
       <tr><td><kbd>Esc</kbd> · <kbd>Ctrl</kbd>+<kbd>W</kbd></td><td>закрыть (во весь экран первый <kbd>Esc</kbd> возвращает окно)</td></tr>
       <tr><td><kbd>F</kbd> · <kbd>F11</kbd> · <kbd>Alt</kbd>+<kbd>Enter</kbd> · двойной щелчок по видео или фото</td><td>во весь экран / обратно в окно</td></tr>
       <tr><td>стрелки в Проводнике</td><td>окно показывает следующий файл</td></tr>
       <tr><td><kbd>Enter</kbd> · <kbd>Ctrl</kbd>+<kbd>O</kbd></td><td>открыть файл в его программе — окно просмотра закроется само (и при двойном щелчке в Проводнике)</td></tr>
       <tr><td><kbd>Ctrl</kbd>+<kbd>F</kbd> · <kbd>F3</kbd></td><td>поиск, следующее совпадение</td></tr>
-      <tr><td><kbd>Ctrl</kbd>+<kbd>C</kbd> · <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd></td><td>копировать выделенное · копировать путь</td></tr>
+      <tr><td><kbd>Ctrl</kbd>+<kbd>C</kbd> · <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd></td><td>копировать выделенное (ничего не выделено — сам файл) · копировать путь</td></tr>
+      <tr><td><kbd>P</kbd> · <kbd>T</kbd></td><td>рисовать на картинке или PDF · текст с картинки</td></tr>
       <tr><td>колесо · <kbd>0</kbd> · <kbd>1</kbd> · <kbd>R</kbd></td><td>картинка: масштаб, вписать, 100 %, повернуть</td></tr>
       <tr><td>щелчок по ярлычку · <kbd>Ctrl</kbd>+<kbd>PgUp</kbd> / <kbd>PgDn</kbd></td><td>таблица: другой лист</td></tr>
       <tr><td><kbd>K</kbd> · стрелки · <kbd>[</kbd> <kbd>]</kbd></td><td>видео: пауза, перемотка на 5 с, скорость</td></tr>
