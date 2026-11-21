@@ -139,17 +139,17 @@ PeekDesk перехватывает пробел, только когда в П�
 
 <table>
   <tr>
-    <td width="96" align="center"><a href="https://nikolinioff.github.io/WinterDesk/"><img src="docs/assets/apps/winterdesk.png" alt="WinterDesk" width="72"></a></td>
-    <td>
-      <b><a href="https://nikolinioff.github.io/WinterDesk/">WinterDesk</a></b> — снег на рабочем столе Windows: сугробы на окнах, гирлянды, ёлочка и отсчёт до Нового года.<br>
-      <sub><a href="https://nikolinioff.github.io/WinterDesk/">Сайт</a> · <a href="https://github.com/NikoliniOFF/WinterDesk">GitHub</a></sub>
-    </td>
-  </tr>
-  <tr>
     <td width="96" align="center"><a href="https://nikolinioff.github.io/HubDesk/"><img src="docs/assets/apps/hubdesk.png" alt="HubDesk" width="72"></a></td>
     <td>
       <b><a href="https://nikolinioff.github.io/HubDesk/">HubDesk</a></b> — все программы Nikolini в одном окне: установка, включение, автозапуск и обновления галочками.<br>
       <sub><a href="https://nikolinioff.github.io/HubDesk/">Сайт</a> · <a href="https://github.com/NikoliniOFF/HubDesk">GitHub</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="96" align="center"><a href="https://nikolinioff.github.io/WinterDesk/"><img src="docs/assets/apps/winterdesk.png" alt="WinterDesk" width="72"></a></td>
+    <td>
+      <b><a href="https://nikolinioff.github.io/WinterDesk/">WinterDesk</a></b> — снег на рабочем столе Windows: сугробы на окнах, гирлянды, ёлочка и отсчёт до Нового года.<br>
+      <sub><a href="https://nikolinioff.github.io/WinterDesk/">Сайт</a> · <a href="https://github.com/NikoliniOFF/WinterDesk">GitHub</a></sub>
     </td>
   </tr>
   <tr>
